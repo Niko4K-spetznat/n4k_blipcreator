@@ -1,0 +1,107 @@
+{
+  "title": "Blip Creator",
+  "no_permission": "You don't have permission to manage blips.",
+  "server_unreachable": "Server unreachable. Try again.",
+  "saved": "Change saved and synced.",
+  "preview_prefix": "[Preview] ",
+  "main": {
+    "create": "Create at my position",
+    "manage": "Manage blips (%d)",
+    "search": "Search by name or ID",
+    "search_title": "Search blips",
+    "search_label": "Name or ID"
+  },
+  "list": {
+    "title": "Blips (%d) - %d/%d",
+    "item_desc": "%s | Sprite %d | Colour %d | %.1f, %.1f, %.1f",
+    "active": "Active",
+    "inactive": "Disabled",
+    "none": "No blips found",
+    "prev": "Previous page",
+    "next": "Next page"
+  },
+  "detail": {
+    "edit": "Edit",
+    "move_here": "Move to my position",
+    "deactivate": "Disable",
+    "activate": "Enable",
+    "waypoint": "Set personal waypoint",
+    "waypoint_set": "Waypoint set.",
+    "delete": "Delete",
+    "delete_header": "Delete this blip?",
+    "delete_content": "Blip #%d: %s",
+    "delete_confirm": "Delete",
+    "cancel": "Cancel"
+  },
+  "form": {
+    "edit_title": "Edit blip",
+    "create_title": "Create blip",
+    "name": "Name",
+    "sprite": "Official sprite (search by ID or name)",
+    "colour": "Official colour",
+    "scale": "Scale",
+    "display": "Display",
+    "display_both": "Map and minimap",
+    "display_map": "Map only",
+    "display_minimap": "Minimap only",
+    "alpha": "Opacity (0-255)",
+    "short_range": "Short range on minimap",
+    "enabled": "Blip enabled",
+    "x": "X",
+    "y": "Y",
+    "z": "Z"
+  },
+  "review": {
+    "title": "Confirm: %s",
+    "save": "Save for all players",
+    "preview": "Local preview for 15 seconds",
+    "preview_desc": "Closes the menu: open the map to see the result. The confirmation then reopens.",
+    "preview_notify": "Local preview: open the map. Confirmation in 15 seconds.",
+    "edit_fields": "Review fields",
+    "cancel": "Cancel"
+  },
+  "validation": {
+    "invalid_data": "Invalid data.",
+    "invalid_name": "Name: maximum 64 bytes, no control characters or ~.",
+    "empty_name": "Enter a name.",
+    "invalid_sprite": "Sprite not in the bundled official catalog.",
+    "invalid_colour": "Invalid colour.",
+    "invalid_scale_alpha": "Invalid scale or opacity.",
+    "invalid_display": "Invalid display mode.",
+    "invalid_visibility": "Invalid visibility.",
+    "invalid_coords": "Coordinates outside the allowed limits."
+  },
+  "server": {
+    "loaded": "Loaded %s blips.",
+    "startup_blocked": "Startup blocked: %s",
+    "store_unavailable_console": "Storage unavailable. Check the server console.",
+    "store_unavailable": "Storage unavailable.",
+    "cooldown": "Wait a moment before saving again.",
+    "invalid_action": "Invalid operation.",
+    "revision_conflict": "List modified by another admin. Reopen the menu and try again.",
+    "invalid_id": "Invalid ID.",
+    "not_found": "Blip not found.",
+    "limit_reached": "Maximum number of blips reached.",
+    "id_limit": "ID limit reached.",
+    "backup_failed": "Backup failed: check the permissions of the data folder.",
+    "save_failed": "Save failed. Change not applied; check storage and backup."
+  },
+  "storage": {
+    "missing": "Storage missing or empty: restore data/blips.json from the backup.",
+    "invalid_json": "Invalid JSON storage.",
+    "invalid_meta": "Invalid storage metadata.",
+    "not_sequential": "Blips storage is not sequential.",
+    "invalid_id": "Duplicate or invalid ID.",
+    "invalid_counter": "Invalid ID counter."
+  },
+  "bridge": {
+    "denied": "Bridge: %s Access denied.",
+    "framework_not_string": "Config.Framework must be a string: auto, esx, qbcore or qbox.",
+    "missing_resources": "Config.FrameworkResources missing in config.lua.",
+    "missing_resource_name": "Config.FrameworkResources.%s must contain the resource name.",
+    "multiple_frameworks": "Multiple frameworks detected: set Config.Framework explicitly.",
+    "no_framework": "No framework started: %s=%s, %s=%s, %s=%s. Start the core before n4k_blipcreator and check Config.FrameworkResources.",
+    "invalid_framework": "Invalid Config.Framework: \"%s\". Use auto, esx, qbcore or qbox.",
+    "framework_not_started": "Framework %s: resource \"%s\" is in state \"%s\". Check the resource name and that the core is started."
+  }
+}
